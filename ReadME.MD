@@ -3,32 +3,32 @@
         
 ## Description
         
-     description
+description
 
-    ## Table of Contents
-    - [Installation](#installation)
-    - [Usage](#Usage)
-    - [Contribute](#Contribute)
-    - [License](#license)
-    - [Questions](#Questions)
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#Usage)
+- [Contribute](#Contribute)
+- [License](#license)
+- [Questions](#Questions)
         
-    ## Installation
+## Installation
         
-    installing
+install instructions
 
-    ## Usage
+## Usage
 
-    usage
+usage info
 
-    ## How to contribute
+## How to contribute
         
-    contribution
+contribute
 
-    ## Tests
+## Tests
 
-    test
+instructions
 
-    ## Questions
-    Reach me at:[Github](https://github.com/username)
-    Email me at:[Email](email.com)
+## Questions
+Reach me at:[Github](https://github.com/github user)
+Email me at:[Email](email.com)
     

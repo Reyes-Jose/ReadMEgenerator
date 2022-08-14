@@ -49,36 +49,36 @@ inquirer
     .then((data) => {
         const generateReadME = (title, description, installInstr, usageInform, contribution, test, githubUser, email ) =>
         //template 
-        `#${title}
+        `# ${title}
         
-        ##Description
+        ## Description
         
         ${description}
 
-        ##Table of Contents
+        ## Table of Contents
         - [Installation](#installation)
         - [Usage](#Usage)
         - [Contribute](#Contribute)
         - [License](#license)
         - [Questions](#Questions)
         
-        ##Installation
+        ## Installation
         
         ${installInstr}
 
-        ##Usage
+        ## Usage
 
         ${usageInform}
 
-        ##How to contribute
+        ## How to contribute
         
         ${contribution}
 
-        ##Tests
+        ## Tests
 
         ${test}
 
-        ##Questions
+        ## Questions
         Reach me at:[Github](${githubUser})
         Email me at:[Email](${email})
         `

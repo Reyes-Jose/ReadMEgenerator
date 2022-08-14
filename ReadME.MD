@@ -1,33 +1,33 @@
-#title
+# title
         
-        ##Description
+        ## Description
         
-        testing
+        description
 
-        ##Table of Contents
+        ## Table of Contents
         - [Installation](#installation)
         - [Usage](#Usage)
         - [Contribute](#Contribute)
         - [License](#license)
         - [Questions](#Questions)
         
-        ##Installation
+        ## Installation
         
         installing
 
-        ##Usage
+        ## Usage
 
-        information
+        usage 
 
-        ##How to contribute
+        ## How to contribute
         
-        contribution
+        contributions
 
-        ##Tests
+        ## Tests
 
         testing
 
-        ##Questions
-        Reach me at:[Github](username)
+        ## Questions
+        Reach me at:[Github](githubuser)
         Email me at:[Email](email.com)
         

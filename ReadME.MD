@@ -14,7 +14,7 @@ description
         
 ## Installation
         
-install instructions
+installation instructions
 
 ## Usage
 
@@ -22,13 +22,13 @@ usage info
 
 ## How to contribute
         
-contribute
+contribution guidlines
 
 ## Tests
 
-instructions
+test
 
 ## Questions
-Reach me at:[Github](https://github.com/github user)
+Reach me at:[Github](https://github.com/username)
+
 Email me at:[Email](email.com)
-    

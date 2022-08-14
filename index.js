@@ -49,7 +49,7 @@ inquirer
     .then((data) => {
         const generateReadME = (title, description, installInstr, usageInform, contribution, test, githubUser, email ) =>
         //template 
-        `
+`
  # ${title}
         
 ## Description
@@ -81,8 +81,9 @@ ${test}
 
 ## Questions
 Reach me at:[Github](https://github.com/${githubUser})
+
 Email me at:[Email](${email})
-    `
+`
             
         fs.writeFile('README.md', generateReadME(data.title, data.description, data.installInstr, data.usageInform, data.contribution, data.test, data.githubUser, data.email), (err) =>
         err ? console.error(err) : console.log('Success! File has been created.'));

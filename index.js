@@ -80,9 +80,9 @@ ${contribution}
 ${test}
 
 ## Questions
-Reach me at:[Github](https://github.com/${githubUser})
+Reach me at: [Github](https://github.com/${githubUser})
 
-Email me at:[Email](${email})
+Email me at: [Email](${email})
 `
             
         fs.writeFile('README.md', generateReadME(data.title, data.description, data.installInstr, data.usageInform, data.contribution, data.test, data.githubUser, data.email), (err) =>

@@ -49,11 +49,11 @@ inquirer
     .then((data) => {
         const generateReadME = (title, description, installInstr, usageInform, contribution, test, githubUser, email ) =>
         //template 
-        `#${title}\n
+        `#${title}
         
-        ##Description\n
+        ##Description
         
-        ${description}\n
+        ${description}
 
         ##Table of Contents
         - [Installation](#installation)
@@ -83,6 +83,6 @@ inquirer
         Email me at:[Email](${email})
         `
             
-        fs.writeFile('ReadME.MD', generateReadME(data.title, data.description, data.installInstr, data.usageInform, data.contribution, data.test, data.githubUser, data.email), (err) =>
+        fs.writeFile('README.md', generateReadME(data.title, data.description, data.installInstr, data.usageInform, data.contribution, data.test, data.githubUser, data.email), (err) =>
         err ? console.error(err) : console.log('Success! File has been created.'));
     })

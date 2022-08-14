@@ -1,11 +1,8 @@
 #title
-
         
         ##Description
-
         
-        this is the description
-
+        testing
 
         ##Table of Contents
         - [Installation](#installation)
@@ -16,21 +13,21 @@
         
         ##Installation
         
-        install inquirer 
+        installing
 
         ##Usage
 
-        used to make a read me file
+        information
 
         ##How to contribute
         
-        Enter contribution
+        contribution
 
         ##Tests
 
         testing
 
         ##Questions
-        Reach me at:[Github](reyes-jose)
+        Reach me at:[Github](username)
         Email me at:[Email](email.com)
         

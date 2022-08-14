@@ -50,39 +50,39 @@ inquirer
         const generateReadME = (title, description, installInstr, usageInform, contribution, test, githubUser, email ) =>
         //template 
         `
-        # ${title}
+ # ${title}
         
-        ## Description
+## Description
         
-        ${description}
+     ${description}
 
-        ## Table of Contents
-        - [Installation](#installation)
-        - [Usage](#Usage)
-        - [Contribute](#Contribute)
-        - [License](#license)
-        - [Questions](#Questions)
+    ## Table of Contents
+    - [Installation](#installation)
+    - [Usage](#Usage)
+    - [Contribute](#Contribute)
+    - [License](#license)
+    - [Questions](#Questions)
         
-        ## Installation
+    ## Installation
         
-        ${installInstr}
+    ${installInstr}
 
-        ## Usage
+    ## Usage
 
-        ${usageInform}
+    ${usageInform}
 
-        ## How to contribute
+    ## How to contribute
         
-        ${contribution}
+    ${contribution}
 
-        ## Tests
+    ## Tests
 
-        ${test}
+    ${test}
 
-        ## Questions
-        Reach me at:[Github](https://github.com/${githubUser})
-        Email me at:[Email](${email})
-        `
+    ## Questions
+    Reach me at:[Github](https://github.com/${githubUser})
+    Email me at:[Email](${email})
+    `
             
         fs.writeFile('README.md', generateReadME(data.title, data.description, data.installInstr, data.usageInform, data.contribution, data.test, data.githubUser, data.email), (err) =>
         err ? console.error(err) : console.log('Success! File has been created.'));

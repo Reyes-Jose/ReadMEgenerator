@@ -10,6 +10,12 @@ inquirer
             name: 'title',
         },
         {
+            type: 'list',
+            message: 'Choose a license: ',           
+            name: 'license',
+            choices: ['MIT', 'APACHE', 'MIT/APACHE 2.0']
+        },
+        {
             type: 'input',
             message: 'Enter the description: ',
             name: 'description',
@@ -47,10 +53,12 @@ inquirer
         
     ])
     .then((data) => {
-        const generateReadME = (title, description, installInstr, usageInform, contribution, test, githubUser, email ) =>
+        const generateReadME = (title, license, description, installInstr, usageInform, contribution, test, githubUser, email ) =>
         //template 
 `
  # ${title}
+
+${license}
         
 ## Description
         
@@ -85,6 +93,6 @@ Reach me at: [Github](https://github.com/${githubUser})
 Email me at: [Email](${email})
 `
             
-        fs.writeFile('README.md', generateReadME(data.title, data.description, data.installInstr, data.usageInform, data.contribution, data.test, data.githubUser, data.email), (err) =>
+        fs.writeFile('README.md', generateReadME(data.title, data.license, data.description, data.installInstr, data.usageInform, data.contribution, data.test, data.githubUser, data.email), (err) =>
         err ? console.error(err) : console.log('Success! File has been created.'));
     })

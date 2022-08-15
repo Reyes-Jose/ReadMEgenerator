@@ -1,9 +1,11 @@
 
- # title
+ # README Generator
+
+MIT
         
 ## Description
         
-description
+This README was created to give user the ability to generate one of their own.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -14,21 +16,21 @@ description
         
 ## Installation
         
-installation
+User will open terminal and enter: node index.js
 
 ## Usage
 
-usage info
+https://drive.google.com/file/d/1N6V8duh007Zh5r_JI95RZpzAAQUfntIX/view
 
 ## How to contribute
         
-guidlines
+[Contributor Covenant](https://www.contributor-covenant.org/)
 
 ## Tests
 
-instructions
+Tested functionality with different links and user inputs.
 
 ## Questions
-Reach me at: [Github](https://github.com/username)
+Reach me at: [Github](https://github.com/Reyes-Jose)
 
 Email me at: [Email](email.com)
